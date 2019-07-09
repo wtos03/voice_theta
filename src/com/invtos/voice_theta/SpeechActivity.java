@@ -248,7 +248,7 @@ public class SpeechActivity extends PluginActivity {
      //       startRecognition();
           }
           else {
-            notificationLedBlink(LedTarget.LED4, LedColor.GREEN, 1000);
+    //        notificationLedBlink(LedTarget.LED4, LedColor.GREEN, 1000);
             isTakingPicture = true;
             new TakePictureTask(mTakePictureTaskCallback).execute();
             isTakingPicture = false;
