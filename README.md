@@ -40,4 +40,4 @@ When you are install program for first time, you need to give permission to the 
 
 When plugin start the LED will become white. If you start voice_theta plugin say "on" to take picture. The camera will hold 5 seconds before take picture. This allow you to pose what you like. To stop plugin you can say "stop" to exit and LED become blue again. During plugin, you can short press mode switch to switch to Video mode. and say "on" to start video. However for video mode, the voice recognition cannot work anymore. So you must press shuttle switch to stop video recording and plug in will exits. You need to restart plugin again if you want to continue using voice command.
 
-For gesture control plugin, just show your face and body to the camera, Or whenever camera detect person pass by, it will automatic take picture with 5 seconds delay same as voice.
+
