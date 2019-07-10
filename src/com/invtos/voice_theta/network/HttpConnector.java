@@ -1137,8 +1137,8 @@ public class HttpConnector {
     public ShootResult startVideo(HttpEventListener listener) {
         ShootResult result = ShootResult.FAIL_DEVICE_BUSY;
         // set capture mode to image
-
-        String errorMessage = setCommandOption("captureMode","video");
+        String errorMessage = setCommandOption("exposureDelay","5");
+        errorMessage = setCommandOption("captureMode","video");
 
         if (errorMessage != null) {
             listener.onError(errorMessage);
